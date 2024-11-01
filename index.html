@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/index.css">
+  
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+</head>
+<body>
+    <h1>Pokemon Finder</h1>
+
+<label for="pokemon--input">
+    Select pokemon name into the input
+</label>
+
+<br>
+<input type="text" placeholder="Pikachu" class="js-pokemon-name css-pokemon-input" id="pokemon--input">
+
+<br>
+<button class="js-pokemon-check-btn css-check-btn">Check</button>
+
+</br>
+
+<h3 class="js-pokemon---name"></h3>
+
+<img src="" alt="pokemon sprite" id="pokemonSprite" class="css-pokemon-img" >
+
+<div class="pokemon-info">
+    <p class="js-abilities css-abilities"></p>
+    <p class="js-items css-items"></p>
+    <ul class="js-base-stats css-base-stats"></ul>
+
+</div>
+
+    <script type="module" src="./scripts/index.js"></script>
+</body>
+</html>
