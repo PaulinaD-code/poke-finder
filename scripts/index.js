@@ -21,7 +21,7 @@
             const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${name}`);
             if(!response.ok){
                 title.innerHTML = `nie odnaleziono takiego pokemona:${name} `
-                imageElement.src = "../images/question-mark.png";
+                imageElement.src = "images/question-mark.png";
                 itemsText.style.display = "none"  
                 abilitiesText.style.display = "none"
                 pokemonStats.style.display = "none";
